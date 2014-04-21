@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: tenancy_db
+  username: postgres
+  password: 12345
+  host: localhost
+  
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: tenancy_db
+  username: postgres
+  password: 12345
+  host: localhost
+  
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: tenancy_db
+  username: postgres
+  password: 12345
+  host: localhost
